@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.7.js"></script>
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,600,700|Roboto" rel="stylesheet">
+</head>
+<body>
+<div class="main-wrapper">
+    <header>
+
+        <div class="main-logo">
+            <a href="index.html">
+                <img src="images/main-logo.png" alt="">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Dashboard</a></li>
+                <li><a href="">Offertes</a></li>
+                <li><a href="" class="active-li">Orders</a></li>
+                <li><a href="">Facturen</a></li>
+                <li><a href="">Klanten</a></li>
+                <li><a href="">Materialen</a></li>
+                <li><a href="">Activiteiten</a></li>
+                <li><a href="">Articles</a></li>
+            </ul>
+        </nav>
+        <article>
+            <address>Test@gmail.com</address>
+            <a href="">
+                <i></i>
+            </a>
+        </article>
+    </header>
+    <section class="offerte-info">
+        <div class="inner-marg">
+        <article>
+            <span>
+                <label for="offerte">Offerte nummer</label>
+                <input type="tel" id="offerte" placeholder="Offerte nummer">
+            </span>
+            <span>
+                <label for="klant2">Klant</label>
+                <input type="text" id="klant2" placeholder="Klant">
+            </span>
+            <span>
+                <label>Datum</label>
+                <input type="tel" value="01.10.2016" class="xs-date-inp">
+                <input type="tel" class="xs-date-inp" value="31.10.2016">
+                <div class="dropdown-date">
+                            <i class="ar"></i>
+                          <div class="dropbtn" id="drop-text-inner">
+                          Periode
+                          </div>
+                          <div id="myDropdown" class="dropdown-content">
+                            <span class="act-drop">Deze Week</span>
+                            <span class="act-drop">Vorige Week</span>
+                            <span class="act-drop">Deze Maand</span>
+                            <span class="act-drop">Vorige Maand</span>
+                            <span class="act-drop">Dit Jaar</span>
+                            <span class="act-drop">Vorig Jaar</span>
+                          </div>
+                </div>
+            </span>
+        </article>
+        <article>
+            <h2>
+                Status
+            </h2>
+        <div class="check-nav">
+            <span>
+                <i class="check-inner"></i>
+                <label>Draft</label>
+            </span>
+            <span>
+                <i class="check-inner"></i>
+                <label>Open</label>
+            </span>
+            <span>
+                <i class="check-inner"></i>
+                <label>Offered</label>
+            </span>
+            <span>
+                <i class="check-inner"></i>
+                <label>Accepted</label>
+            </span>
+            <span>
+                <i class="check-inner"></i>
+                <label>Ready</label>
+            </span>
+            <span>
+                <i class="check-inner"></i>
+                <label>Deliavered</label>
+            </span>
+        </div>
+            <div class="offer-btn-area">
+                <button class="new-offer">Nieuwe offerte</button>
+                <button class="filter-offer">Filter leegmaken</button>
+            </div>
+
+        </article>
+        </div>
+    </section>
+    <main class="table-info">
+        <h1>
+           Offertelijst (Total aantal urr: 678.27)
+        </h1>
+        <table>
+            <tr>
+                <td></td>
+                <td>Offerte nummer <i></i></td>
+                <td>Klant <i></i></td>
+                <td>Datum <i></i></td>
+                <td>Aantal uur <i></i></td>
+                <td>Status <i></i></td>
+            </tr>
+            <tr>
+                <td>
+                    Del
+                </td>
+                <td>
+                    T8-Ent-20161002-071141
+                </td>
+                <td>
+                    T8-Entege Holland B.V.
+                </td>
+                <td>
+                    02/10/2016
+                </td>
+                <td>
+                    57.35
+                </td>
+                <td>
+                    2 - Open
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Del
+                </td>
+                <td>
+                    T8-Ent-20161002-071141
+                </td>
+                <td>
+                    T8-Entege Holland B.V.
+                </td>
+                <td>
+                    02/10/2016
+                </td>
+                <td>
+                    57.35
+                </td>
+                <td>
+                    2 - Open
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Del
+                </td>
+                <td>
+                    T8-Ent-20161002-071141
+                </td>
+                <td>
+                    T8-Entege Holland B.V.
+                </td>
+                <td>
+                    02/10/2016
+                </td>
+                <td>
+                    57.35
+                </td>
+                <td>
+                    2 - Open
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Del
+                </td>
+                <td>
+                    T8-Ent-20161002-071141
+                </td>
+                <td>
+                    T8-Entege Holland B.V.
+                </td>
+                <td>
+                    02/10/2016
+                </td>
+                <td>
+                    57.35
+                </td>
+                <td>
+                    2 - Open
+                </td>
+            </tr>
+
+        </table>
+
+        <section class="pagination">
+
+            <div class="pages">
+                <a href="">
+                    <span><<</span>
+                </a>
+                <a href="">
+                    <span><</span>
+                </a>
+                <span>1</span>
+                <a href="">
+                    <span>
+                        >
+                    </span>
+                </a>
+                <a href="">
+                    <span >
+                        >>
+                    </span>
+                </a>
+            </div>
+            <div class="dropdown-date">
+                <i class="ar"></i>
+                <div class="dropbtn" id="drop-text-inner2">
+                    50
+                </div>
+                <div class="dropdown-content">
+                    <span class="act-drop">20</span>
+                    <span class="act-drop">100</span>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+</body>
+</html>

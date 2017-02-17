@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.7.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,600,700|Roboto" rel="stylesheet">
+</head>
+<body>
+<div class="main-wrapper">
+    <header>
+
+        <div class="main-logo">
+            <a href="index.html">
+                <img src="images/main-logo.png" alt="">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Dashboard</a></li>
+                <li><a href="">Offertes</a></li>
+                <li><a href="" class="active-li">Orders</a></li>
+                <li><a href="">Facturen</a></li>
+                <li><a href="">Klanten</a></li>
+                <li><a href="">Materialen</a></li>
+                <li><a href="">Activiteiten</a></li>
+                <li><a href="">Articles</a></li>
+            </ul>
+        </nav>
+        <article>
+            <address>Test@gmail.com</address>
+            <a href="">
+            <i></i>
+            </a>
+        </article>
+
+    </header>
+    <section class="head-info">
+
+        <h1>T8-Ent-20161002-071141</h1>
+        <article>
+            <div>
+                <h3>Vekoopprijs</h3>
+                <span>€7,710.50</span>
+            </div>
+
+            <div>
+                <h3>Marge</h3>
+                <span class="marg-null">-44%</span>
+            </div>
+            <div>
+                <h3>Kostprijs</h3>
+                <span>€13,704.04</span>
+            </div>
+            <div>
+                <h3>Totaal uren</h3>
+                <span class="marg-null">57.35</span>
+            </div>
+        </article>
+        <div class="btn-area">
+            <button>Maak factuur</button>
+            <button>Kopieer</button>
+        </div>
+        <div class="icon-actions">
+            <div>
+                <input type="file">
+                <i class="add-file-ico"></i>
+                <span>Add File</span>
+            </div>
+            <div>
+                <a href="" download="">
+                <i class="load-pdf-ico"></i>
+                </a>
+                <span style="width: 70px;">Download PDF</span>
+            </div>
+            <div>
+                <i class="delete-ico"></i>
+                <span>Delete</span>
+            </div>
+        </div>
+        <div class="minus-circle">
+            <i></i>
+        </div>
+
+    </section>
+    <div class="add-files-main">
+        <span>File Name</span>
+        <button>
+            <input type="file">
+            Add Files</button>
+    </div>
+    <section class="info-inside">
+        <div class="inner">
+
+        <article>
+            <div>
+                <span>
+                <label for="klant">Klant</label>
+                <input type="text" id="klant" class="unique-focus" placeholder="T8-Entege Holland B.V.">
+                <i class="active-arrow"></i>
+                </span>
+                <span>
+                <label for="cont-pers">Contactpersoon</label>
+                <input type="text" id="cont-pers" class="unique-focus" placeholder="Barry">
+                    <i class="active-arrow"></i>
+                </span>
+                <span>
+                <label for="address-pers">Adress</label>
+                <input type="text" id="address-pers" class="unique-focus" placeholder="Weerlan 3">
+                    <i class="active-arrow"></i>
+                </span>
+                <span class="last-span postcode-wid left">
+                <label for="postcode">Postcode</label>
+                <input type="tel" id="postcode" class="unique-focus" placeholder="2181 HG">
+                    <i class="active-arrow"></i>
+                    </span>
+                <span class="last-span left">
+                <label for="plaats" class="plaats">Plaats</label>
+                <input type="text" id="plaats" class="unique-focus" placeholder="Hillegom">
+                    <i class="active-arrow"></i>
+                </span>
+
+            </div>
+            <div>
+                <span>
+                <label for="phone">Telefoon</label>
+                <input type="tel" id="phone" class="unique-focus" placeholder="0252-0519993">
+                    <i class="active-arrow"></i>
+                </span>
+                <span>
+                <label for="mail">Email</label>
+                <input type="email" id="mail"  class="unique-focus" placeholder="info@entege.nl">
+                    <i class="active-arrow"></i>
+                </span>
+                <span>
+                <label for="fax">Fax</label>
+                <input type="tel" id="fax" class="unique-focus" placeholder="0252-519993">
+                    <i class="active-arrow"></i>
+                </span>
+                <span>
+                <label for="deb">Deb. nr.</label>
+                <input type="tel" id="deb" class="unique-focus" placeholder="103">
+                    <i class="active-arrow"></i>
+                </span>
+            </div>
+        </article>
+        <hr class="sep">
+        <article>
+            <div>
+                 <span>
+                <label for="dat">Datum</label>
+                <input type="tel" id="dat" class="unique-focus" placeholder="02/10/2016">
+                <i class="active-arrow"></i>
+                </span>
+                <span>
+                <label for="lever">Leverdatum</label>
+                <input type="text" id="lever" class="unique-focus" placeholder="In overleg">
+                <i class="active-arrow"></i>
+                </span>
+                <span>
+                <label for="lever2">Leveringswijze</label>
+                <input type="text" id="lever2" class="unique-focus" placeholder="In overleg">
+                <i class="active-arrow"></i>
+                </span>
+                <span>
+                <label>BTW 21%</label>
+                <em>€1,619.20</em>
+                </span>
+            </div>
+            <div>
+                 <span>
+                <label for="geld" class="wd-lbl">Geldigheid offerte</label>
+                <input type="text" id="geld" class="unique-focus" placeholder="3 weken">
+                <i class="active-arrow"></i>
+                </span>
+                <span>
+                <label for="refer" class="wd-lbl">Referentie voor de klant</label>
+                <input type="text" class="unique-focus" id="refer">
+                <i class="active-arrow"></i>
+                </span>
+                <span>
+                    <label class="label-status">Status</label>
+                    <div class="dropdown-date">
+                            <i class="ar"></i>
+                          <div class="dropbtn" id="drop-text">
+                          Open
+                          </div>
+                          <div id="myDropdown" class="dropdown-content">
+                            <span class="act-drop">Close</span>
+                            <span class="act-drop">Open</span>
+                          </div>
+                        </div>
+                </span>
+            </div>
+        </article>
+        <hr class="sep-two">
+        <article>
+            <div>
+                <span>
+                <label for="oms" class="oms">Omschrijving</label>
+                <textarea name="" id="oms" cols="30" class="unique-focus" rows="10" placeholder="Test offerte voor layout calc component"></textarea>
+                    <i class="active-arrow"></i>
+                </span>
+            </div>
+            <div>
+                <span>
+                 <label for="oms2" class="oms">Omschrijving</label>
+                <textarea name="" id="oms2" cols="30" rows="10" class="unique-focus"></textarea>
+                    <i class="active-arrow"></i>
+                </span>
+            </div>
+        </article>
+        </div>
+    </section>
+    <div class="accordion">
+        <section class="info-artikel">
+      <span class="col-active-arrow">
+            <textarea name="atrikel"  cols="30" rows="10" class="unique-focus" placeholder="Default Artikel of steel"></textarea>
+       <i class="active-arrow"></i>
+        </span>
+            <div class="artekl-table">
+                <div>
+                    <span>Aantal</span>
+                    <span>Verkoop prijsper stuk</span>
+                    <span>Totaal</span>
+                </div>
+                <div>
+                <span>
+                    <input type="tel" class="unique-focus">
+                    <i class="active-arrow"></i>
+                </span>
+                    <span>
+                    <input type="tel" class="unique-focus">
+                    <i class="active-arrow"></i>
+                </span>
+                    <span style="margin-top: 16px;">
+                    €750.25
+                </span>
+                </div>
+                <div>
+                <span>
+                    Kostprijs
+                </span>
+                    <span>€1,461.47</span>
+                    <span>€1,461.47</span>
+                </div>
+                <div>
+                    <span>Marge</span>
+                    <span></span>
+                    <span>-49%</span>
+                </div>
+            </div>
+            <div class="plus-circle btn-acr">
+                <i></i>
+            </div>
+            <div class="artekl-btns">
+                <div>
+                    <i class="radio-btn"></i>
+                </div>
+                <div>
+                    <i class="share-ico"></i>
+
+                    <ul class="share-menu">
+                        <li>Add</li>
+                        <li>Copy</li>
+                        <li>Del</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <dd class="main-table panel">
+            <table>
+                <tr>
+                    <td>Materialen</td>
+                    <td width="59px">Unit</td>
+                    <td>Prijs/Unit</td>
+                    <td>Korting %</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Aantal</td>
+                    <td>Afval %</td>
+                    <td></td>
+                    <td>Subtotaal</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Groep 1"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="triple-col">L (mm)</td>
+                    <td class="triple-col">B (mm)</td>
+                    <td class="triple-col">D (mm)</td>
+                    <td></td>
+                    <td></td>
+                    <td>Units</td>
+                    <td></td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul></td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Bumpsons Dim 8 c."></td>
+                    <td>
+                        <div class="dropdown-date">
+                            <i class="ar"></i>
+                            <div  class="dropbtn" id="drop-text2">
+                                Item
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="act-drop">Item</span>
+                                <span class="act-drop">Item1</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" class="md-inp" value="€0.06"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="text" class="xs-inp" value="10"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td class="units-font">20.00</td>
+                    <td class="units-font">€1.20</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td><div class="xs-circle-plus">
+                        <i></i>
+                    </div></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="PMMA Rondstaf XT"></td>
+                    <td>
+                        <div class="dropdown-date">
+                            <i class="ar"></i>
+                            <div  class="dropbtn">
+                                M
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="act-drop">X</span>
+                                <span class="act-drop">L</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" class="md-inp" value="€0.46"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td><input type="text" class="md-inp" value="2000"></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="text" class="xs-inp" value="1"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td class="units-font">4.00</td>
+                    <td class="units-font">€1.84</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td><div class="xs-circle-minus">
+                        <i></i>
+                    </div></td>
+                </tr>
+                <tr class="btw-stat">
+                    <td>
+                        BTW%21
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Buigtriplex"></td>
+                    <td>
+                        <div class="dropdown-date">
+                            <i class="ar"></i>
+                            <div  class="dropbtn">
+                                M2
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="act-drop">X2</span>
+                                <span class="act-drop">L2</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" class="md-inp" value="€0.46"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td><input type="text" class="md-inp" value="2000"></td>
+                    <td><input type="text" class="md-inp" value="1220"></td>
+                    <td></td>
+                    <td><input type="text" class="xs-inp" value="1"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td class="units-font">4.00</td>
+                    <td class="units-font">€1.84</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td><div class="xs-circle-plus">
+                        <i></i>
+                    </div></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Test materiaal 2"></td>
+                    <td>
+                        <div class="dropdown-date">
+                            <i class="ar"></i>
+                            <div class="dropbtn">
+                                Kg (R)
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="act-drop">kg3</span>
+                                <span class="act-drop">L3</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" class="md-inp" value="€10.00"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td><input type="text" class="md-inp" value="1000"></td>
+                    <td></td>
+                    <td><input type="text" class="md-inp" value="100"></td>
+                    <td><input type="text" class="xs-inp" value="1"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td class="units-font">6.10</td>
+                    <td class="units-font">€136.03</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td><div class="xs-circle-plus">
+                        <i></i>
+                    </div></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Test materiaal 3"></td>
+                    <td>
+                        <div class="dropdown-date">
+                            <i class="ar"></i>
+                            <div  class="dropbtn">
+                                Kg (R)
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="act-drop">X3</span>
+                                <span class="act-drop">L3</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" class="md-inp" value="€10.00"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td><input type="text" class="md-inp" value="1000"></td>
+                    <td></td>
+                    <td><input type="text" class="md-inp" value="100"></td>
+                    <td><input type="text" class="xs-inp" value="1"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td class="units-font">6.10</td>
+                    <td class="units-font">€136.03</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td><div class="xs-circle-minus">
+                        <i></i>
+                    </div></td>
+                </tr>
+                <tr class="btw-stat">
+                    <td>
+                        BTW%21
+                    </td>
+                </tr>
+                <tr class="btw-stat">
+                    <td>
+                        Soortelijke gewcht
+                    </td>
+                    <td class="sort-gew">
+                        <input type="text" class="md-inp" value="2">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Test materiaal 3"></td>
+                    <td>
+                        <div class="dropdown-date">
+                            <i class="ar"></i>
+                            <div  class="dropbtn">
+                                Kg (R)
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="act-drop">X3</span>
+                                <span class="act-drop">L3</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" class="md-inp" value="€10.00"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td><input type="text" class="md-inp" value="1000"></td>
+                    <td></td>
+                    <td><input type="text" class="md-inp" value="100"></td>
+                    <td><input type="text" class="xs-inp" value="1"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td class="units-font">6.10</td>
+                    <td class="units-font">€136.03</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td><div class="xs-circle-minus">
+                        <i></i>
+                    </div></td>
+                </tr>
+                <tr class="total-sum">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="sum-font">Subtotaal</td>
+                    <td class="units-font">116.21</td>
+                    <td class="units-font">€1022.03</td>
+                    <td width="35px"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="stats-count">
+                    <td>Activiteiten</td>
+                    <td>Instel tijdu(u)</td>
+                    <td>Instel tarief</td>
+                    <td>Instel kosten</td>
+                    <td>Aantal</td>
+                    <td width="80px">Tijd/Unit(m)</td>
+                    <td width="90px">Variabel tarief</td>
+                    <td>Variabele kosten</td>
+                    <td>BTW%</td>
+                    <td>Totaal</td>
+                    <td>Subtotaal</td>
+                    <td width="35px"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Zagen"></td>
+                    <td>
+                        <input type="text" class="md-inp" value="0.25">
+                    </td>
+                    <td><input type="text" class="md-inp" value="€45.00"></td>
+                    <td class="units-font">€11.25</td>
+                    <td><input type="text" class="md-inp" value="5"></td>
+                    <td><input type="text" class="md-inp" value="60"></td>
+                    <td><input type="text" class="md-inp" value="€45.00"></td>
+                    <td class="units-font">€1,350.00</td>
+                    <td class="units-font">21</td>
+                    <td class="units-font">30.25</td>
+                    <td class="units-font">€1,361.25</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Zagen"></td>
+                    <td>
+                        <input type="text" class="md-inp" value="0.25">
+                    </td>
+                    <td><input type="text" class="md-inp" value="€45.00"></td>
+                    <td class="units-font">€11.25</td>
+                    <td><input type="text" class="md-inp" value="5"></td>
+                    <td><input type="text" class="md-inp" value="60"></td>
+                    <td><input type="text" class="md-inp" value="€45.00"></td>
+                    <td class="units-font">€1,350.00</td>
+                    <td class="units-font">21</td>
+                    <td class="units-font">30.25</td>
+                    <td class="units-font">€1,361.25</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Zagen"></td>
+                    <td>
+                        <input type="text" class="md-inp" value="0.25">
+                    </td>
+                    <td><input type="text" class="md-inp" value="€45.00"></td>
+                    <td class="units-font">€11.25</td>
+                    <td><input type="text" class="md-inp" value="5"></td>
+                    <td><input type="text" class="md-inp" value="60"></td>
+                    <td><input type="text" class="md-inp" value="€45.00"></td>
+                    <td class="units-font">€1,350.00</td>
+                    <td class="units-font">21</td>
+                    <td class="units-font">30.25</td>
+                    <td class="units-font">€1,361.25</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr class="total-sum">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="sum-font">Subtotaal</td>
+                    <td class="units-font">116.21</td>
+                    <td class="units-font">€1022.03</td>
+                    <td width="35px"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </dd>
+
+        <div class="blue-bg"></div>
+        <section class="info-artikel">
+      <span class="col-active-arrow">
+            <textarea name="atrikel"  cols="30" rows="10" class="unique-focus" placeholder="Default Artikel of steel"></textarea>
+       <i class="active-arrow"></i>
+        </span>
+            <div class="artekl-table">
+                <div>
+                    <span>Aantal</span>
+                    <span>Verkoop prijsper stuk</span>
+                    <span>Totaal</span>
+                </div>
+                <div>
+                <span>
+                    <input type="tel" class="unique-focus">
+                    <i class="active-arrow"></i>
+                </span>
+                    <span>
+                    <input type="tel" class="unique-focus">
+                    <i class="active-arrow"></i>
+                </span>
+                    <span style="margin-top: 16px;">
+                    €750.25
+                </span>
+                </div>
+                <div>
+                <span>
+                    Kostprijs
+                </span>
+                    <span>€1,461.47</span>
+                    <span>€1,461.47</span>
+                </div>
+                <div>
+                    <span>Marge</span>
+                    <span></span>
+                    <span>-49%</span>
+                </div>
+            </div>
+            <div class="plus-circle btn-acr">
+                <i></i>
+            </div>
+            <div class="artekl-btns">
+                <div>
+                    <i class="radio-btn"></i>
+                </div>
+                <div>
+                    <i class="share-ico"></i>
+
+                    <ul class="share-menu">
+                        <li>Add</li>
+                        <li>Copy</li>
+                        <li>Del</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <dd class="main-table panel">
+            <table>
+                <tr>
+                    <td>Materialen</td>
+                    <td width="99px">Unit</td>
+                    <td>Prijs/Unit</td>
+                    <td>Korting %</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Aantal</td>
+                    <td>Afval %</td>
+                    <td></td>
+                    <td>Subtotaal</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Groep 1"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="triple-col">L (mm)</td>
+                    <td class="triple-col">B (mm)</td>
+                    <td class="triple-col">D (mm)</td>
+                    <td></td>
+                    <td></td>
+                    <td>Units</td>
+                    <td></td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul></td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Bumpsons Dim 8 c."></td>
+                    <td>
+                        <div class="dropdown-date">
+                            <i class="ar"></i>
+                            <div  class="dropbtn" id="drop-text5">
+                                Item
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="act-drop">Item</span>
+                                <span class="act-drop">Item1</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" class="md-inp" value="€0.06"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="text" class="xs-inp" value="10"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td class="units-font">20.00</td>
+                    <td class="units-font">€1.20</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td><div class="xs-circle-plus">
+                        <i></i>
+                    </div></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="PMMA Rondstaf XT"></td>
+                    <td>
+                        <div class="dropdown-date">
+                            <i class="ar"></i>
+                            <div  class="dropbtn">
+                                M
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="act-drop">X</span>
+                                <span class="act-drop">L</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" class="md-inp" value="€0.46"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td><input type="text" class="md-inp" value="2000"></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="text" class="xs-inp" value="1"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td class="units-font">4.00</td>
+                    <td class="units-font">€1.84</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td><div class="xs-circle-minus">
+                        <i></i>
+                    </div></td>
+                </tr>
+                <tr class="btw-stat">
+                    <td>
+                        BTW%21
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Buigtriplex"></td>
+                    <td>
+                        <div class="dropdown-date">
+                            <i class="ar"></i>
+                            <div  class="dropbtn">
+                                M2
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="act-drop">X2</span>
+                                <span class="act-drop">L2</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" class="md-inp" value="€0.46"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td><input type="text" class="md-inp" value="2000"></td>
+                    <td><input type="text" class="md-inp" value="1220"></td>
+                    <td></td>
+                    <td><input type="text" class="xs-inp" value="1"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td class="units-font">4.00</td>
+                    <td class="units-font">€1.84</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td><div class="xs-circle-plus">
+                        <i></i>
+                    </div></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Test materiaal 2"></td>
+                    <td>
+                        <div class="dropdown-date">
+                            <i class="ar"></i>
+                            <div class="dropbtn">
+                                Kg (R)
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="act-drop">kg3</span>
+                                <span class="act-drop">L3</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" class="md-inp" value="€10.00"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td><input type="text" class="md-inp" value="1000"></td>
+                    <td></td>
+                    <td><input type="text" class="md-inp" value="100"></td>
+                    <td><input type="text" class="xs-inp" value="1"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td class="units-font">6.10</td>
+                    <td class="units-font">€136.03</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td><div class="xs-circle-plus">
+                        <i></i>
+                    </div></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Test materiaal 3"></td>
+                    <td>
+                        <div class="dropdown-date">
+                            <i class="ar"></i>
+                            <div  class="dropbtn">
+                                Kg (R)
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="act-drop">X3</span>
+                                <span class="act-drop">L3</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" class="md-inp" value="€10.00"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td><input type="text" class="md-inp" value="1000"></td>
+                    <td></td>
+                    <td><input type="text" class="md-inp" value="100"></td>
+                    <td><input type="text" class="xs-inp" value="1"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td class="units-font">6.10</td>
+                    <td class="units-font">€136.03</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td><div class="xs-circle-minus">
+                        <i></i>
+                    </div></td>
+                </tr>
+                <tr class="btw-stat">
+                    <td>
+                        BTW%21
+                    </td>
+                </tr>
+                <tr class="btw-stat">
+                    <td>
+                        Soortelijke gewcht
+                    </td>
+                    <td class="sort-gew">
+                        <input type="text" class="md-inp" value="2">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Test materiaal 3"></td>
+                    <td>
+                        <div class="dropdown-date">
+                            <i class="ar"></i>
+                            <div  class="dropbtn">
+                                Kg (R)
+                            </div>
+                            <div class="dropdown-content">
+                                <span class="act-drop">X3</span>
+                                <span class="act-drop">L3</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="text" class="md-inp" value="€10.00"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td><input type="text" class="md-inp" value="1000"></td>
+                    <td></td>
+                    <td><input type="text" class="md-inp" value="100"></td>
+                    <td><input type="text" class="xs-inp" value="1"></td>
+                    <td><input type="text" class="md-inp" value="0%"></td>
+                    <td class="units-font">6.10</td>
+                    <td class="units-font">€136.03</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td><div class="xs-circle-minus">
+                        <i></i>
+                    </div></td>
+                </tr>
+                <tr class="total-sum">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="sum-font">Subtotaal</td>
+                    <td class="units-font">116.21</td>
+                    <td class="units-font">€1022.03</td>
+                    <td width="35px"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="stats-count">
+                    <td>Activiteiten</td>
+                    <td>Instel tijdu(u)</td>
+                    <td>Instel tarief</td>
+                    <td>Instel kosten</td>
+                    <td>Aantal</td>
+                    <td width="80px">Tijd/Unit(m)</td>
+                    <td width="90px">Variabel tarief</td>
+                    <td>Variabele kosten</td>
+                    <td>BTW%</td>
+                    <td>Totaal</td>
+                    <td>Subtotaal</td>
+                    <td width="35px"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Zagen"></td>
+                    <td>
+                        <input type="text" class="md-inp" value="0.25">
+                    </td>
+                    <td><input type="text" class="md-inp" value="€45.00"></td>
+                    <td class="units-font">€11.25</td>
+                    <td><input type="text" class="md-inp" value="5"></td>
+                    <td><input type="text" class="md-inp" value="60"></td>
+                    <td><input type="text" class="md-inp" value="€45.00"></td>
+                    <td class="units-font">€1,350.00</td>
+                    <td class="units-font">21</td>
+                    <td class="units-font">30.25</td>
+                    <td class="units-font">€1,361.25</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Zagen"></td>
+                    <td>
+                        <input type="text" class="md-inp" value="0.25">
+                    </td>
+                    <td><input type="text" class="md-inp" value="€45.00"></td>
+                    <td class="units-font">€11.25</td>
+                    <td><input type="text" class="md-inp" value="5"></td>
+                    <td><input type="text" class="md-inp" value="60"></td>
+                    <td><input type="text" class="md-inp" value="€45.00"></td>
+                    <td class="units-font">€1,350.00</td>
+                    <td class="units-font">21</td>
+                    <td class="units-font">30.25</td>
+                    <td class="units-font">€1,361.25</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Zagen"></td>
+                    <td>
+                        <input type="text" class="md-inp" value="0.25">
+                    </td>
+                    <td><input type="text" class="md-inp" value="€45.00"></td>
+                    <td class="units-font">€11.25</td>
+                    <td><input type="text" class="md-inp" value="5"></td>
+                    <td><input type="text" class="md-inp" value="60"></td>
+                    <td><input type="text" class="md-inp" value="€45.00"></td>
+                    <td class="units-font">€1,350.00</td>
+                    <td class="units-font">21</td>
+                    <td class="units-font">30.25</td>
+                    <td class="units-font">€1,361.25</td>
+                    <td width="35px"><span class="check-ico"></span></td>
+                    <td><i class="share-ico"></i>
+                        <ul class="share-menu">
+                            <li>Add</li>
+                            <li>Copy</li>
+                            <li>Del</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr class="total-sum">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="sum-font">Subtotaal</td>
+                    <td class="units-font">116.21</td>
+                    <td class="units-font">€1022.03</td>
+                    <td width="35px"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </dd>
+    </div>
+    <button class="ops">Opslaan</button>
+</div>
+</body>
+</html>
